@@ -1,0 +1,11 @@
+body {
+	background-image: url("../images/stardust.png");
+	background-color: #cccccc;
+}
+
+.property {
+}
+
+.itemList {
+	font-weight: bold;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Json Dev!</title>
+    
+    <link rel="stylesheet" href="./css/photon.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="js/application.js"></script>
+
+  </head>
+
+  <body>
+    
+    <div class="window">
+      <div class="window-content">
+        
+        <div class="pane-group">
+          <div class="pane-sm sidebar">
+            <div id="treeViewPoint">
+              <header class="toolbar toolbar-header">
+                <h1 class="title">Json structure</h1>
+                <div class="toolbar-actons">
+                  <div class="btn-group">
+                    <button class="btn btn-default" onclick="loadFile();">
+                      <span class="icon icon-folder"></span>
+                    </button>
+                    <button class="btn btn-default">
+                      <span class="icon icon-check"></span>
+                    </button>
+                  </div>
+                </div>
+              </header>
+            </div>
+          </div>
+          <div class="pane">
+            <div id="JSONAnchor"></div>
+          <!--
+          <textarea class="form-control" style="height: 100%; width: 100%" id="textPoint" autofocus></textarea>
+          -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // On mouse-over, execute myFunction
+      function myFunction() {
+          document.getElementById("loadFile").click();
+      }
+    </script>
+  </body>
+</html>
